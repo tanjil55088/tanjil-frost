@@ -1,0 +1,112 @@
+
+/* Tablet Layout: 1170px. */
+
+@media only screen and (min-width: 1170px){
+.container {width:1170px}
+
+
+
+}
+
+/* Tablet Layout: 900px. */
+
+@media only screen and (min-width: 970px) and (max-width: 1169px) {
+.container {width:970px}
+.project_list .single_project {
+  margin-left: 19px;
+  width: 23%;
+}
+.love_area{
+  background-position: 50% 133px;
+}
+.unique_area{
+background-position: 50% 10px !important;
+}
+.testimonial_area{
+background-position: 0 2px !important;
+}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.container {width:750px}
+.project_filter ul.project_menu li {
+  padding: 14px 2px;
+}
+.project_list .single_project {
+  margin-left: 17px;
+  width: 31%;
+}
+.love_area{
+  background-position: 50% 133px;
+}
+.unique_area{
+background-position: 50% 10px !important;
+}
+.testimonial_area{
+background-position: 0 2px !important;
+}
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+.container {width:100%;}
+.navbar-nav {
+  margin: 0 !important;
+}
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+.project_list .single_project {
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 22px;
+  position: relative;
+  width: 44%;
+}
+.love_area{
+  background-position: 50% 1px !important;
+}
+.unique_area{
+background-position: 50% 10px !important;
+}
+.testimonial_area{
+background-position: 0 2px !important;
+}
+
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.container {width:100%}
+
+
+
+
+
+}
+@media only screen and (max-width: 479px){
+.lover_text a {
+  font-size: 16px;
+  width: 94%;
+}
+.project_list .single_project {
+  display: block !important;
+  float: none;
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 90%;
+}
+}

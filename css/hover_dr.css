@@ -1,0 +1,85 @@
+.project_detail {position:absolute;text-align:center;height:100%;width:100%;top:0;left:0;display:none}
+.single_project:hover .project_detail {display:block}
+.project_detail a{background: none repeat scroll 0 0 #000000;
+color: #FFFFFF;
+display: inline-block;
+margin: 70px 5px;
+padding: 10px;
+position: relative;
+z-index: 999;}
+.project_detail a:hover {background:#666}
+.project_overlay {background:#00AAE9;position:absolute;left:0;top:0;height:100%;width:100%;opacity:.6}
+
+
+/*mixit-up css*/
+.project_list .mix {
+    display: none;
+    }
+
+.mix.single_project img {
+    height: 235px;
+	width: 100%;
+    }
+
+.project_filter ul.project_menu {
+    text-align: center;
+    }
+
+.project_filter ul.project_menu li {
+    display: inline-block;
+    font-weight: 700;
+    color: #616161;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding: 15px 25px;
+    cursor: pointer;
+    }
+
+.project_filter ul.project_menu li.active {
+    color: #549DC5;
+    }
+
+.project_filter ul.project_menu li:hover {
+    color: #549DC5;
+    }
+
+.project_list {
+    margin-left: -10px;
+    }
+
+.project_list .single_project {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 24%
+    }
+
+.project_detail {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none
+    }
+
+.single_project:hover .project_detail {
+    display: block
+    }
+
+.project_detail a {
+	background: none repeat scroll 0 0 #000000;
+	color: #FFFFFF;
+	display: inline-block;
+	margin: 94px 5px;
+	padding: 8px 12px;
+	position: relative;
+	z-index: 999;
+    }
+
+.project_detail a:hover {
+    background: #666
+    }
+
